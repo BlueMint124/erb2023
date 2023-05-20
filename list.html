@@ -1,0 +1,39 @@
+<HTML>
+<head>
+<title>배열</title>
+
+
+
+
+</head>
+
+
+<body>
+
+<script> 
+sum = 0
+//data = [1,2,3,4,5]
+data = prompt("숫자 여러개를 입력 하시오")
+data = data.split(' ')
+data = data.map(Number)
+
+
+for (k=0; k<data.length; k++){
+	sum += data[k]
+	document.write("k is " + k + ", data is " + data[k] + "<br>")
+
+}
+document.write("sum is " + sum + "<br>")
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</HTML>
