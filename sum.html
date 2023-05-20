@@ -1,0 +1,37 @@
+<HTML>
+<head>
+<title>합</title>
+
+
+
+
+</head>
+
+
+<body>
+
+<h1> sum 구하기 </h1>
+<script> 
+sum = 0;
+kk = prompt('숫자를 입력해주세요')
+start = new Date()
+for( i = 1; i<=kk; i++ ){
+	//document.write('i is' + i + "<br>" );
+	sum += i;
+}
+end = new Date()
+document.write(sum + "<br>" )
+document.write("Computing Time is" +  (end-start) + 'ms')
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</HTML>
